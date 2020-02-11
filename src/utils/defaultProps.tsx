@@ -87,6 +87,14 @@ import {
   Grid,
   NumberInput,
   AspectRatioBox,
+  Popover,
+  PopoverArrow,
+  PopoverTrigger,
+  PopoverContent,
+  PopoverHeader,
+  PopoverBody,
+  PopoverCloseButton,
+  PopoverFooter,
 } from '@chakra-ui/core'
 import FormLabel, { FormLabelProps } from '@chakra-ui/core/dist/FormLabel'
 
@@ -161,6 +169,15 @@ type PreviewDefaultProps = {
   AccordionMeta?: any
   ListMeta?: any
   BreadcrumbMeta?: any
+  Popover?: any
+  PopoverTrigger?: any
+  PopoverContent?: any
+  PopoverHeader?: any
+  PopoverBody?: any
+  PopoverArrow?: any
+  PopoverCloseButton?: any
+  PopoverFooter?: any
+  PopoverMeta?: any
 }
 
 export const DEFAULT_PROPS: PreviewDefaultProps = {
@@ -314,5 +331,29 @@ export const DEFAULT_PROPS: PreviewDefaultProps = {
   BreadcrumbLink: {
     ...BreadcrumbLink.defaultProps,
     children: 'Lorem Ipsum',
+  },
+  Popover: {
+    ...Popover.defaultProps,
+  },
+  PopoverTrigger: {
+    ...PopoverTrigger.defaultProps,
+  },
+  PopoverContent: {
+    ...PopoverContent.defaultProps,
+  },
+  PopoverHeader: {
+    ...PopoverHeader.defaultProps,
+  },
+  PopoverBody: {
+    ...PopoverBody.defaultProps,
+  },
+  PopoverArrow: {
+    ...PopoverArrow.defaultProps,
+  },
+  PopoverCloseButton: {
+    ...PopoverCloseButton.defaultProps,
+  },
+  PopoverFooter: {
+    ...PopoverFooter.defaultProps,
   },
 }

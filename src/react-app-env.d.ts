@@ -74,6 +74,15 @@ type ComponentType =
   | 'BreadcrumbItem'
   | 'BreadcrumbLink'
   | 'BreadcrumbMeta'
+  | 'Popover'
+  | 'PopoverTrigger'
+  | 'PopoverContent'
+  | 'PopoverHeader'
+  | 'PopoverBody'
+  | 'PopoverArrow'
+  | 'PopoverCloseButton'
+  | 'PopoverFooter'
+  | 'PopoverMeta'
 
 interface IComponent {
   children: string[]

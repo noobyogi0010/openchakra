@@ -61,6 +61,14 @@ export const COMPONENTS: ComponentType[] = [
   'AccordionIcon',
   'InputRightElement',
   'InputLeftElement',
+  'Popover',
+  'PopoverTrigger',
+  'PopoverContent',
+  'PopoverHeader',
+  'PopoverBody',
+  'PopoverArrow',
+  'PopoverCloseButton',
+  'PopoverFooter',
   // Allow meta components
   'AlertMeta',
   'FormControlMeta',
@@ -68,6 +76,7 @@ export const COMPONENTS: ComponentType[] = [
   'ListMeta',
   'InputGroupMeta',
   'BreadcrumbMeta',
+  'PopoverMeta',
 ]
 
 export const AccordionWhitelist: ComponentType[] = COMPONENTS.filter(
@@ -86,5 +95,11 @@ export const rootComponents = COMPONENTS
         'AccordionHeader',
         'AccordionPanel',
         'AccordionIcon',
+        'Popover',
+        'PopoverTrigger',
+        'PopoverContent',
+        'PopoverHeader',
+        'PopoverBody',
+        'PopoverFooter',
       ].includes(name),
   )
