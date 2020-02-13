@@ -329,6 +329,7 @@ export const DEFAULT_PROPS: PreviewDefaultProps = {
   BreadcrumbItem: { ...BreadcrumbItem.defaultProps },
   BreadcrumbLink: {
     ...BreadcrumbLink.defaultProps,
+  },
   Menu: {
     ...Menu.defaultProps,
   },
