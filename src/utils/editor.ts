@@ -68,6 +68,7 @@ export const COMPONENTS: ComponentType[] = [
   'ListMeta',
   'InputGroupMeta',
   'BreadcrumbMeta',
+  'MenuMeta',
 ]
 
 export const AccordionWhitelist: ComponentType[] = COMPONENTS.filter(
