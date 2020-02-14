@@ -101,7 +101,7 @@ export const rootComponents = COMPONENTS
         'AccordionIcon',
         'TabList',
         'TabPanels',
-        'Tabs',
+        'Tab',
         'TabPanel',
       ].includes(name),
   )
