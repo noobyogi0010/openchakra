@@ -5,6 +5,14 @@ const ALERT_COMPONENTS: ComponentType[] = [
   'AlertTitle',
 ]
 
+const TABS_COMPONENTS: ComponentType[] = [
+  'Tab',
+  'TabList',
+  'TabPanels',
+  'Tabs',
+  'TabPanel',
+]
+
 export const COMPONENTS: ComponentType[] = [
   ...ALERT_COMPONENTS,
   'Avatar',
@@ -43,14 +51,10 @@ export const COMPONENTS: ComponentType[] = [
   'Select',
   'Stack',
   'Switch',
+  ...TABS_COMPONENTS,
   'Tag',
   'Text',
   'Textarea',
-  'Tab',
-  'TabList',
-  'TabPanels',
-  'Tabs',
-  'TabPanel',
   'Accordion',
   'Editable',
   'AspectRatioBox',
@@ -77,6 +81,10 @@ export const COMPONENTS: ComponentType[] = [
 
 export const AccordionWhitelist: ComponentType[] = COMPONENTS.filter(
   name => !ALERT_COMPONENTS.includes(name),
+)
+
+export const TabsWhiteList: ComponentType[] = COMPONENTS.filter(
+  name => !TABS_COMPONENTS.includes(name),
 )
 
 export const rootComponents = COMPONENTS
