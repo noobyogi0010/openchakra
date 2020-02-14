@@ -257,7 +257,7 @@ export const DEFAULT_PROPS: PreviewDefaultProps = {
   },
   TabPanel: { ...TabPanel.defaultProps, children: '' },
   TabPanels: { ...TabPanels.defaultProps, children: '' },
-  Tab: { ...Tab.defaultProps, children: '' },
+  Tab: { ...Tab.defaultProps },
   Tabs: { ...Tabs.defaultProps, defaultIndex: 0 },
   TabList: { ...TabList.defaultProps, children: '' },
   FormLabel: { ...FormLabel.defaultProps, children: 'Label' },
