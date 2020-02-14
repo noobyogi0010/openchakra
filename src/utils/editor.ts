@@ -84,7 +84,7 @@ export const AccordionWhitelist: ComponentType[] = COMPONENTS.filter(
 )
 
 export const TabsWhiteList: ComponentType[] = COMPONENTS.filter(
-  name => !TABS_COMPONENTS.includes(name),
+  name => !ALERT_COMPONENTS.includes(name),
 )
 
 export const rootComponents = COMPONENTS
