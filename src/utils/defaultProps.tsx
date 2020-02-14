@@ -332,6 +332,7 @@ export const DEFAULT_PROPS: PreviewDefaultProps = {
   },
   Menu: {
     ...Menu.defaultProps,
+    isOpen: true,
   },
   MenuList: {
     ...MenuList.defaultProps,
@@ -339,8 +340,6 @@ export const DEFAULT_PROPS: PreviewDefaultProps = {
   MenuButton: {
     ...MenuButton.defaultProps,
     children: 'Lorem Ipsum',
-    as: Button,
-    rightIcon: 'chevron-down',
   },
   MenuItem: {
     ...MenuItem.defaultProps,
